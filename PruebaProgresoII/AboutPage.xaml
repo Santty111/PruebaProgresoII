@@ -3,10 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PruebaProgresoII.AboutPage"
              Title="AboutPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Text="Nombre: Santiago Conlago"  Grid.Row="0" Grid.Column="0" BackgroundColor="BlueViolet" HorizontalOptions="Center" VerticalOptions="Center"  />
+        <Label Text="Nacimiento: 06/10/2003" Grid.Row="0" Grid.Column="1" BackgroundColor="CadetBlue" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Text="Intereses: MAUI, C#, Tecnología" Grid.Row="1" Grid.Column="0" BackgroundColor="DarkBlue" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Text="Versión: 1.0" Grid.Row="1" Grid.Column="1" BackgroundColor="Firebrick" HorizontalOptions="Center" VerticalOptions="Center"/>
+    </Grid>
 </ContentPage>
