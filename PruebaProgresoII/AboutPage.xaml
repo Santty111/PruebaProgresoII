@@ -13,9 +13,9 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Label Text="Nombre: Santiago Conlago"  Grid.Row="0" Grid.Column="0" BackgroundColor="BlueViolet" HorizontalOptions="Center" VerticalOptions="Center"  />
-        <Label Text="Nacimiento: 06/10/2003" Grid.Row="0" Grid.Column="1" BackgroundColor="CadetBlue" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <Label Text="Intereses: MAUI, C#, Tecnología" Grid.Row="1" Grid.Column="0" BackgroundColor="DarkBlue" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <Label Text="Versión: 1.0" Grid.Row="1" Grid.Column="1" BackgroundColor="Firebrick" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Text="Nombre: Santiago Conlago"  Grid.Row="0" Grid.Column="0" BackgroundColor="BlueViolet" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  />
+        <Label Text="Nacimiento: 06/10/2003" Grid.Row="0" Grid.Column="1" BackgroundColor="CadetBlue" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Label Text="Intereses: MAUI, C#, Tecnología" Grid.Row="1" Grid.Column="0" BackgroundColor="DarkBlue" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Label Text="Versión: 1.0" Grid.Row="1" Grid.Column="1" BackgroundColor="Firebrick" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
     </Grid>
 </ContentPage>
