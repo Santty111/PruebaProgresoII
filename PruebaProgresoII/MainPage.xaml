@@ -16,14 +16,26 @@
 
             <Image
             Source="meme.png"
-            HeightRequest="185"
+            HeightRequest="285"
             Aspect="AspectFit" />
 
             <Button Text="Chistes"
-            Clicked="Button_Clicked"
-            HorizontalOptions="Center" />
+             FontSize="30"
+             BackgroundColor="White"
+             BorderColor="Black"
+             WidthRequest="400"
+             HeightRequest="50"
+             Margin="5"
+             Clicked="Button_Clicked"
+             HorizontalOptions="Center" />
 
             <Button Text="About"
+             FontSize="30"
+             BackgroundColor="White"
+             BorderColor="Black"
+             WidthRequest="400"
+             HeightRequest="50"
+             Margin="5"
              Clicked="Button_ClickedAbout"
              HorizontalOptions="Center" />
         </StackLayout>
